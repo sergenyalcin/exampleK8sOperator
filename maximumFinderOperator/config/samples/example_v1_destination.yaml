@@ -1,0 +1,6 @@
+apiVersion: example.example/v1
+kind: Destination
+metadata:
+  name: destination-sample
+spec:
+  # Add fields here

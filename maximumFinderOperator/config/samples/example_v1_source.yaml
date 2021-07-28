@@ -1,0 +1,9 @@
+apiVersion: example.example/v1
+kind: Source
+metadata:
+  name: source-sample
+spec:
+  # Add fields here
+  numberA: 15
+  numberB: 25
+  destination: destination-sample

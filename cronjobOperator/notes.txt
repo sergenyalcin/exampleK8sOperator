@@ -1,0 +1,9 @@
+kubebuilder init --domain tutorial.kubebuilder.io --repo kubebuilder/tutorial
+
+kubebuilder create api --group batch --version v1 --kind CronJob
+
+edit CronJobSpec
+
+Pointer olma sebebi 0'a set edilme ile set edilmeme arasındaki farkı tespit etmek
+
+make install
